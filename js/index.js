@@ -81,7 +81,7 @@ $(window).resize(resize);
 		if(CW<768){
 			listbtn.eq(0).css({"background":"#288998"});
 			listbtn.not(tem).css({"background":""});
-			listbtn.eq(tem).css({"background":"#288998"});
+			listbtn.eq(tem).css({"background":"#4F454B"});
 		}else{
 			listbtn.eq(0).css({"background":"#fff"});
 			span.eq(0).css({"background":"#3b5998","color":"#fff"});
